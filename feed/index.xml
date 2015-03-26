@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[孙伟(Jack)的博客]]></title>
-  <link href="blog.jack-wei-sun.org/feed" rel="self"/>
-  <link href="blog.jack-wei-sun.org/"/>
-  <updated>2015-03-26T19:44:48+08:00</updated>
-  <id>blog.jack-wei-sun.org/</id>
+  <link href="http://blog.jack-wei-sun.org/feed" rel="self"/>
+  <link href="http://blog.jack-wei-sun.org/"/>
+  <updated>2015-03-26T20:13:10+08:00</updated>
+  <id>http://blog.jack-wei-sun.org/</id>
   <author>
     <name><![CDATA[孙伟 Jack]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[虚函数与接口]]></title>
-    <link href="blog.jack-wei-sun.org/blog/2015/03/26/xu-han-shu-yu-jie-kou/"/>
+    <link href="http://blog.jack-wei-sun.org/blog/2015/03/26/xu-han-shu-yu-jie-kou/"/>
     <updated>2015-03-26T17:24:47+08:00</updated>
-    <id>blog.jack-wei-sun.org/blog/2015/03/26/xu-han-shu-yu-jie-kou</id>
+    <id>http://blog.jack-wei-sun.org/blog/2015/03/26/xu-han-shu-yu-jie-kou</id>
     <content type="html"><![CDATA[<p>最近又有点空，翻出了<a href="http://www.duokan.com/book/76600">《Linux多线程服务端编程：使用muduo C++网络库》</a>
 随便看看，又看到了一些而之前没有注意过的问题，这要从我之前写Java的时候，一直存在的一个
 疑问开始说起。</p>

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: blog.jack-wei-sun.org/sitemap.xml 
+Sitemap: http://blog.jack-wei-sun.org/sitemap.xml 
