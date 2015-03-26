@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://learngroup.github.io/accblog/sitemap.xml 
+Sitemap: blog.jack-wei-sun.org/sitemap.xml 
