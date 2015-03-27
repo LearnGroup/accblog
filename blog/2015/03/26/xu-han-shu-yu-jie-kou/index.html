@@ -122,7 +122,7 @@
 
 <p>下面用一个具体点的例子来说明：</p>
 
-<p>传统方法中，我们要</p>
+<p>传统方法中，我们可以用如下方法，实现一个线程：</p>
 
 <div class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">ThreadA</span> <span class="kd">extends</span> <span class="n">Thread</span> <span class="o">{</span>
     <span class="kd">private</span> <span class="n">Data</span> <span class="n">data</span><span class="o">;</span>
@@ -137,7 +137,7 @@
 <span class="n">threadA</span><span class="o">.</span><span class="na">start</span><span class="o">();</span></code></pre></div>
 
 
-<p>而如果我们使用接口+闭包的话，就可以用下面的方式</p>
+<p>而如果我们使用接口+闭包的话，就可以用下面的方式：</p>
 
 <div class="highlight"><pre><code class="language-java" data-lang="java"><span class="c1">// usage code</span>
 <span class="n">Data</span> <span class="n">data</span> <span class="o">=</span> <span class="k">new</span> <span class="nf">Data</span><span class="o">();</span>
@@ -151,15 +151,15 @@
 
 
 <p>从上面的例子，我们可以看出，对于Thread这样一个库，它只需要一个实现了Runnalbe接口的
-类，就可以了，所以我们不在需要专门写一个类，去覆写Thread的run方法。
+类，就可以了，所以我们不再需要专门写一个类，去覆写Thread的run方法。
 同时，按照传统的做法，我们需要一个专门的类来同时实现Runnable接口，又包含一个<code>Data</code>型的
-对象，来实现业务逻辑。有了闭包之后，我们的编码就变得灵活了许多，我们不在需要把Data和run方法
-写在一个类里面，而是可以随这个具体业务的需求，把它们灵活的组合在一起，
+对象，来实现业务逻辑。有了闭包之后，我们的编码就变得灵活了许多，我们不在需要把<code>Data</code>和
+<code>run</code>方法写在一个类里面，而是可以随这个具体业务的需求，把它们灵活的组合在一起，
 也就是说它们完全没有关系。</p>
 
-<p>这样一来，我们的程序就可以很“轻”，我们可以轻而易举的重构任何一个零件，而不需要付出高昂的代价。
+<p>这样一来，我们的程序就可以很“轻”，我们可以轻而易举的重构任何一个组件，而不需要付出高昂的代价。
 这样我想起了ruby中的duck type，和go中的interface。二者都是强调的接口的灵活性。“duck type”
-的哲学是“像鸭子的东西就是鸭子”；而go的interface则是，只要符合一个interface的描述，一个类
+的哲学是“像鸭子的东西就是鸭子”；而go的interface则更直接，只要符合一个interface的描述，一个类
 就是某个interface，而不需要像Java一样使用implements关键字指定。</p>
 
 <h1>小结</h1>
