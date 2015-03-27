@@ -4,7 +4,7 @@
   <title><![CDATA[孙伟(Jack)的博客]]></title>
   <link href="http://blog.jack-wei-sun.org/atom.xml" rel="self"/>
   <link href="http://blog.jack-wei-sun.org/"/>
-  <updated>2015-03-26T22:27:40+08:00</updated>
+  <updated>2015-03-27T19:08:46+08:00</updated>
   <id>http://blog.jack-wei-sun.org/</id>
   <author>
     <name><![CDATA[孙伟 Jack]]></name>
@@ -48,7 +48,7 @@
 但是继承本身就是一种非常强的耦合，如果现在的需求在未来需要改变，
 那么很可能面临着一种牵一发动全身的窘境。</p>
 
-<h1>拜托继承和虚函数</h1>
+<h1>摆脱继承和虚函数</h1>
 
 <p>如果对这个问题稍加分析，不难看出，其实我们需要的是“多态”，虚函数仅仅是一种手段。
 更深一点说，“多态”代表着一种动态绑定的手法，在不同情况下，需要绑定到不同的业务逻辑中。
