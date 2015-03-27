@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[孙伟(Jack)的博客]]></title>
-  <link href="http://blog.jack-wei-sun.org/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 随想 | 孙伟(Jack)的博客]]></title>
+  <link href="http://blog.jack-wei-sun.org/blog/categories/sui-xiang/atom.xml" rel="self"/>
   <link href="http://blog.jack-wei-sun.org/"/>
   <updated>2015-03-27T21:25:10+08:00</updated>
   <id>http://blog.jack-wei-sun.org/</id>
@@ -64,22 +64,29 @@
 
 <p>传统方法中，我们可以用如下方法，实现一个线程：</p>
 
-<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">ThreadA</span> <span class="kd">extends</span> <span class="n">Thread</span> <span class="o">{</span>
-    <span class="kd">private</span> <span class="n">Data</span> <span class="n">data</span><span class="o">;</span>
-    
-    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">run</span><span class="o">()</span> <span class="o">{</span>
-        <span class="c1">// do something with data</span>
-    <span class="o">}</span>
+<p><div class="highlight"><pre><code class="language-java" data-lang="java"><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+
+<span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">ThreadA</span> <span class="kd">extends</span> <span class="n">Thread</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="n">Data</span> <span class="n">data</span><span class="o">;&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+
+<span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="kd">public</span> <span class="kt">void</span> <span class="nf">run</span><span class="o">()</span> <span class="o">{</span>
+    <span class="c1">// do something with data</span>
 <span class="o">}</span>
+<span class="o">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
 
-<span class="c1">// usage code</span>
+<span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;}&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+
+<span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="c1">// usage code</span>
 <span class="n">ThreadA</span> <span class="n">threadA</span> <span class="o">=</span> <span class="k">new</span> <span class="nf">ThreadA</span><span class="o">();</span>
-<span class="n">threadA</span><span class="o">.</span><span class="na">start</span><span class="o">();</span></code></pre></div>
+<span class="n">threadA</span><span class="o">.</span><span class="na">start</span><span class="o">();&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
 
+<span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span></code></pre></div></p>
 
 <p>而如果我们使用接口+闭包的话，就可以用下面的方式：</p>
 
-<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="c1">// usage code</span>
+<p><div class="highlight"><pre><code class="language-java" data-lang="java"><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+
+<span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="c1">// usage code</span>
 <span class="n">Data</span> <span class="n">data</span> <span class="o">=</span> <span class="k">new</span> <span class="nf">Data</span><span class="o">();</span>
 <span class="n">Thread</span> <span class="n">threadB</span> <span class="o">=</span> <span class="k">new</span> <span class="nf">Thread</span><span class="o">(</span><span class="k">new</span> <span class="nf">Runnable</span><span class="o">()</span> <span class="o">{</span>
     <span class="nd">@Override</span>
@@ -87,8 +94,9 @@
         <span class="c1">// do something with data</span>
     <span class="o">}</span>
 <span class="o">});</span>
-<span class="n">threadB</span><span class="o">.</span><span class="na">start</span><span class="o">();</span></code></pre></div>
+<span class="n">threadB</span><span class="o">.</span><span class="na">start</span><span class="o">();&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
 
+<span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span></code></pre></div></p>
 
 <p>从上面的例子，我们可以看出，对于Thread这样一个库，它只需要一个实现了Runnalbe接口的
 类，就可以了，所以我们不再需要专门写一个类，去覆写Thread的run方法。
