@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>2014 Review - 孙伟(Jack)的博客</title>
+  <title>创造力笔记 - 孙伟(Jack)的博客</title>
   <meta name="author" content="孙伟 Jack">
 
   
-  <meta name="description" content="2014年，总体来说有点收获，也虚耗了不少时光。放个假回来，2个月就木有了。 写了三个月的C#，那是在学校旁边的微软，一边实验室一边偷偷的实习，赚点生活费，收获不多，最多就是对C#的重新认识，不得不说，C#确实优秀，谈得上是最优秀的静态语言。了解了什么事MVVM，初识了异步的概念（ &hellip;">
+  <meta name="description" content="坐在去深圳的火车上，翻着MiPad里面的zguide，在不断吸取新的知识的同时，也在不断赞叹作者对于编程哲学的理解。作为一名从业30余年（书中作者自述）老程序员，作者不仅试图通过这篇大作教会我们使用zeromq，更试图将他多年沉淀下来的思考教给我们。这不禁让我想起小时候的课文：授之以鱼不如授之以渔 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.jack-wei-sun.org/blog/2015/01/03/2014-review/">
+  <link rel="canonical" href="http://blog.jack-wei-sun.org/blog/2015/03/30/chuang-zao-li-bi-ji/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
    <link href="/stylesheets/data-table.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -53,7 +53,7 @@
   
   <header>
     
-      <h1 class="entry-title">2014 Review</h1>
+      <h1 class="entry-title">创造力笔记</h1>
     
     
       <p class="meta">
@@ -62,7 +62,7 @@
 
 
 
-<time class='entry-date' datetime='2015-01-03T10:53:11+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>10:53 am</span></time>
+<time class='entry-date' datetime='2015-03-30T20:50:49+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:50 pm</span></time>
         
          | <a href="#disqus_thread">Comments</a>
         
@@ -71,13 +71,27 @@
   </header>
 
 
-<div class="entry-content"><p>2014年，总体来说有点收获，也虚耗了不少时光。放个假回来，2个月就木有了。</p>
+<div class="entry-content"><p>坐在去深圳的火车上，翻着MiPad里面的zguide，在不断吸取新的知识的同时，也在不断赞叹作者对于编程哲学的理解。作为一名从业30余年（书中作者自述）老程序员，作者不仅试图通过这篇大作教会我们使用zeromq，更试图将他多年沉淀下来的思考教给我们。这不禁让我想起小时候的课文：授之以鱼不如授之以渔。也正是作者这样的态度，让我对这本书格外的感兴趣，即便是阅读英文，也丝毫没有困意。</p>
 
-<p>写了三个月的C#，那是在学校旁边的微软，一边实验室一边偷偷的实习，赚点生活费，收获不多，最多就是对C#的重新认识，不得不说，C#确实优秀，谈得上是最优秀的静态语言。了解了什么事MVVM，初识了异步的概念（在这之前自己那点多线程的知识是在捉急啊）。</p>
+<p>于是乎，看着看着，就勾起了我对一个老问题的思考。为什么这些大牛们能够想到做这么一个非常cool的东西呢，为什么我就不会想到做呢？就算鄙人暂时水平不够，但是至少也应该在生命中的某个时刻，有这样的灵感来想到做一个cool一点的东西吧。想想自己虽然不算是计算机天才，但是也是名牌大学出来的“优秀”学生，每想及此，就有那么些许的不甘心与气馁。不过好在自己总是有些阿Q精神和积极向上的心态，不至于精神出问题。</p>
 
-<p>紧接着就是去了某游戏公司专心写了两个月的Lua，感觉收获颇丰，初识了什么叫函数式编程。在<a href="http://akirayu101.github.io/">鑫哥</a>的影响下，成为了多看的忠实粉丝，看了大半本《ruby元编程》，又看了松本行弘大神的《代码的未来》，学到了很多之前在Java重OO的影响下不会想象的编程原理。这两个月虽然加班多，但是收获多、快乐更多。</p>
+<p>经过了小小思索，就产生了些感悟。其实并不是自己没有灵感，而是自己不善于抓住灵感，以及自己没有足够的执行力来保存灵感。为什么这么说呢？zguide作者在谈及zeromq的开发初衷时，谈的最多的就是大软件中关于messaging的复杂和高成本，并且许多项目处于各种原因，都会在TCP的基础上开发出专属自己的messaging模块，而这些模块大部分都是很类似的，即大家都在重复发明轮子。于是乎，作者经过自己的思考和抽象，写出了zeromq这个专门负责messaging的高效、轻便、嵌入式库，所谓嵌入是指能够轻易嵌入其他项目中，成为一个好用的“轮子”。</p>
 
-<p>之后就回到了学校开始了伺候老板的生活，顺着之前的惯性，上了一半的cousera上的Programming Language，很遗憾，最后在毕业的压力下无耻的半途而退了。。。不过还是学到了不少东西，写了两个月的SML，对程序语言的一些知识有了了解，又开了眼界。同时跟我们屋的大神讨论了windows上m:n的异步调用实现，本想利用业余时间写个雏形练练手，最后还是在毕业的压力下无耻的暂停了，寒假一定要补上！</p>
+<p>从这个过程中，我们不难看出，其实作者的灵感也不是凭空想出来的，而是从他工作中的实际例子转化而来。而且是程序员的最朴素的思想——不做重复的工作。那么反省自己作为程序员难道就没有这样的时刻？当然有，只不过时之前根本没有这样的意识，来保留自己的灵感。当然，“没有意识”这样的结论过于苍白无力，其实内在还有更多的原因，比如：惰性、“工作”的忙碌等，但是这些统统不能成为自己忽略灵感的理由（等同于碌碌无为的理由）。</p>
+
+<h1>今后</h1>
+
+<p>于是，为了不让以后的自己遗憾，给自己立下如下要求（建议）：</p>
+
+<ul>
+<li>经常总结手头的工作，寻找灵感</li>
+<li>每每想到一个IDEA时，要尽快落笔，记之</li>
+<li>经常回顾自己的想法，尝试将他们付诸实施</li>
+<li>经常与同伴讨论自己的想法，期待思想的共鸣</li>
+</ul>
+
+
+<p>暂时想到这些，继续坐火车，to be continued&hellip;</p>
 </div>
 
 
@@ -93,7 +107,7 @@
 
 
 
-<time class='entry-date' datetime='2015-01-03T10:53:11+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>10:53 am</span></time>
+<time class='entry-date' datetime='2015-03-30T20:50:49+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:50 pm</span></time>
       
 
 <span class="categories">
@@ -114,8 +128,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2015/03/26/xu-han-shu-yu-jie-kou/" title="Previous Post: 虚函数与接口">&laquo; 虚函数与接口</a>
       
-        <a class="basic-alignment right" href="/blog/2015/03/26/xu-han-shu-yu-jie-kou/" title="Next Post: 虚函数与接口">虚函数与接口 &raquo;</a>
       
     </p>
   </footer>
@@ -213,8 +227,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://blog.jack-wei-sun.org/blog/2015/01/03/2014-review/';
-        var disqus_url = 'http://blog.jack-wei-sun.org/blog/2015/01/03/2014-review/';
+        var disqus_identifier = 'http://blog.jack-wei-sun.org/blog/2015/03/30/chuang-zao-li-bi-ji/';
+        var disqus_url = 'http://blog.jack-wei-sun.org/blog/2015/03/30/chuang-zao-li-bi-ji/';
         var disqus_script = 'embed.js';
       
     (function () {
