@@ -1,101 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>孙伟(Jack)的博客</title>
-  <meta name="author" content="孙伟 Jack">
-
-  
-  <meta name="description" content="暑期实习的时候知道了业务这个概念，作为一个比较单纯的码农，以前从没想过业务和技术的关系，一心的想法就是只要积累经验、多学东西，总是好的，然而随着自己经历的增长，对这些问题的认识也逐渐变得多元化。就比如业务这个问题，作为一个程序员，毕业后比较常规的思路就是进入一些big name的公司， &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://blog.jack-wei-sun.org/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-   <link href="/stylesheets/data-table.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="孙伟(Jack)的博客" type="application/atom+xml">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
-<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href='/stylesheets/google-font1.css' rel='stylesheet' type='text/css'>
-<link href='/stylesheets/google-font2.css' rel='stylesheet' type='text/css'>
-<link href='/stylesheets/google-font3.css' rel='stylesheet' type='text/css'>
-
-<!-- Open Graph -->
-<meta property="og:locale" content="zh_CN">
-<meta property="og:type" content="article">
-<meta property="og:title" content="孙伟(Jack)的博客">
-<meta property="og:description" content="孙伟（Jack）的思绪小站，偶尔停留，望日积月累以足己用。">
-<meta property="og:url" content="http://blog.jack-wei-sun.org/index.html">
-<meta property="og:site_name" content="孙伟(Jack)的博客">
-
-
-
-
-
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-42599176-5']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-
-  <style>html{background: url(/images/background.png) no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}</style>
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-</hgroup>
-
-</header>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[孙伟(Jack)的博客]]></title>
+  <link href="http://blog.jack-wei-sun.org/feed" rel="self"/>
+  <link href="http://blog.jack-wei-sun.org/"/>
+  <updated>2015-05-18T00:58:18+08:00</updated>
+  <id>http://blog.jack-wei-sun.org/</id>
+  <author>
+    <name><![CDATA[孙伟 Jack]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2015/04/18/ji-neng-dian-yu-zhi-ye-xuan-ze/">技能点与职业选择</a></h1>
-    
-    
-      <p class="meta">
-        
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-
-
-
-<time class='entry-date' datetime='2015-04-18T23:01:48+08:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:01 pm</span></time>
-        
-         | <a href="/blog/2015/04/18/ji-neng-dian-yu-zhi-ye-xuan-ze/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>暑期实习的时候知道了业务这个概念，作为一个比较单纯的码农，以前从没想过业务和技术的关系，一心的想法就是只要积累经验、多学东西，总是好的，然而随着自己经历的增长，对这些问题的认识也逐渐变得多元化。就比如业务这个问题，作为一个程序员，毕业后比较常规的思路就是进入一些big name的公司，诸如BAT之流，在旁人看来是一个好的开局，但个中滋味冷暖自知。虽然在大公司可以增加自己的简历分量、标准化流程知识等等，但是还有一个不可忽略的问题就是螺丝钉化。</p>
+  
+  <entry>
+    <title type="html"><![CDATA[技能点与职业选择]]></title>
+    <link href="http://blog.jack-wei-sun.org/blog/2015/04/18/ji-neng-dian-yu-zhi-ye-xuan-ze/"/>
+    <updated>2015-04-18T23:01:48+08:00</updated>
+    <id>http://blog.jack-wei-sun.org/blog/2015/04/18/ji-neng-dian-yu-zhi-ye-xuan-ze</id>
+    <content type="html"><![CDATA[<p>暑期实习的时候知道了业务这个概念，作为一个比较单纯的码农，以前从没想过业务和技术的关系，一心的想法就是只要积累经验、多学东西，总是好的，然而随着自己经历的增长，对这些问题的认识也逐渐变得多元化。就比如业务这个问题，作为一个程序员，毕业后比较常规的思路就是进入一些big name的公司，诸如BAT之流，在旁人看来是一个好的开局，但个中滋味冷暖自知。虽然在大公司可以增加自己的简历分量、标准化流程知识等等，但是还有一个不可忽略的问题就是螺丝钉化。</p>
 
 <p>一个非常常见的现象就是，在大公司里，每个人可以很高效的完成业务的编写，为公司创造巨大价值，但这些都是依附于公司已经存在的巨量基础之上的。大公司在给你提供了一个非常好的施展才能的平台的同时，也同样会限制你向更高的平台去进步。虽然这并不一定是公司的刻意而为之，但却会在很多方面让员工自然而然的走入这个怪圈：</p>
 
@@ -110,37 +33,15 @@
 <li>不要被永远做不完的业务缠得忘记思考加点的方向。</li>
 </ul>
 
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/30/chuang-zao-li-bi-ji/">创造力笔记</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-03-30T20:50:49+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:50 pm</span></time>
-        
-         | <a href="/blog/2015/03/30/chuang-zao-li-bi-ji/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>坐在去深圳的火车上，翻着MiPad里面的zguide，在不断吸取新的知识的同时，也在不断赞叹作者对于编程哲学的理解。作为一名从业30余年（书中作者自述）老程序员，作者不仅试图通过这篇大作教会我们使用zeromq，更试图将他多年沉淀下来的思考教给我们。这不禁让我想起小时候的课文：授之以鱼不如授之以渔。也正是作者这样的态度，让我对这本书格外的感兴趣，即便是阅读英文，也丝毫没有困意。</p>
+  <entry>
+    <title type="html"><![CDATA[创造力笔记]]></title>
+    <link href="http://blog.jack-wei-sun.org/blog/2015/03/30/chuang-zao-li-bi-ji/"/>
+    <updated>2015-03-30T20:50:49+08:00</updated>
+    <id>http://blog.jack-wei-sun.org/blog/2015/03/30/chuang-zao-li-bi-ji</id>
+    <content type="html"><![CDATA[<p>坐在去深圳的火车上，翻着MiPad里面的zguide，在不断吸取新的知识的同时，也在不断赞叹作者对于编程哲学的理解。作为一名从业30余年（书中作者自述）老程序员，作者不仅试图通过这篇大作教会我们使用zeromq，更试图将他多年沉淀下来的思考教给我们。这不禁让我想起小时候的课文：授之以鱼不如授之以渔。也正是作者这样的态度，让我对这本书格外的感兴趣，即便是阅读英文，也丝毫没有困意。</p>
 
 <p>于是乎，看着看着，就勾起了我对一个老问题的思考。为什么这些大牛们能够想到做这么一个非常cool的东西呢，为什么我就不会想到做呢？就算鄙人暂时水平不够，但是至少也应该在生命中的某个时刻，有这样的灵感来想到做一个cool一点的东西吧。想想自己虽然不算是计算机天才，但是也是名牌大学出来的“优秀”学生，每想及此，就有那么些许的不甘心与气馁。不过好在自己总是有些阿Q精神和积极向上的心态，不至于精神出问题。</p>
 
@@ -161,37 +62,15 @@
 
 
 <p>暂时想到这些，继续坐火车，to be continued&hellip;</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/26/xu-han-shu-yu-jie-kou/">虚函数与接口</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-03-26T17:24:47+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>5:24 pm</span></time>
-        
-         | <a href="/blog/2015/03/26/xu-han-shu-yu-jie-kou/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>最近又有点空，翻出了<a href="http://www.duokan.com/book/76600">《Linux多线程服务端编程：使用muduo C++网络库》</a>随便看看，又看到了一些而之前没有注意过的问题，这要从我之前写Java的时候，一直存在的一个疑问开始说起。</p>
+  <entry>
+    <title type="html"><![CDATA[虚函数与接口]]></title>
+    <link href="http://blog.jack-wei-sun.org/blog/2015/03/26/xu-han-shu-yu-jie-kou/"/>
+    <updated>2015-03-26T17:24:47+08:00</updated>
+    <id>http://blog.jack-wei-sun.org/blog/2015/03/26/xu-han-shu-yu-jie-kou</id>
+    <content type="html"><![CDATA[<p>最近又有点空，翻出了<a href="http://www.duokan.com/book/76600">《Linux多线程服务端编程：使用muduo C++网络库》</a>随便看看，又看到了一些而之前没有注意过的问题，这要从我之前写Java的时候，一直存在的一个疑问开始说起。</p>
 
 <p>在Java多线程中，如果要是实现一个线程，有两种方式：</p>
 
@@ -283,160 +162,22 @@
 <p>最后引用人家的一句话做结：</p>
 
 <blockquote><p>代码重用不是目的，目的是减少重复劳动、提高工作效率</p></blockquote>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/03/2014-review/">2014 Review</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-01-03T10:53:11+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>10:53 am</span></time>
-        
-         | <a href="/blog/2015/01/03/2014-review/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>2014年，总体来说有点收获，也虚耗了不少时光。放个假回来，2个月就木有了。</p>
+  <entry>
+    <title type="html"><![CDATA[2014 Review]]></title>
+    <link href="http://blog.jack-wei-sun.org/blog/2015/01/03/2014-review/"/>
+    <updated>2015-01-03T10:53:11+08:00</updated>
+    <id>http://blog.jack-wei-sun.org/blog/2015/01/03/2014-review</id>
+    <content type="html"><![CDATA[<p>2014年，总体来说有点收获，也虚耗了不少时光。放个假回来，2个月就木有了。</p>
 
 <p>写了三个月的C#，那是在学校旁边的微软，一边实验室一边偷偷的实习，赚点生活费，收获不多，最多就是对C#的重新认识，不得不说，C#确实优秀，谈得上是最优秀的静态语言。了解了什么事MVVM，初识了异步的概念（在这之前自己那点多线程的知识是在捉急啊）。</p>
 
 <p>紧接着就是去了某游戏公司专心写了两个月的Lua，感觉收获颇丰，初识了什么叫函数式编程。在<a href="http://akirayu101.github.io/">鑫哥</a>的影响下，成为了多看的忠实粉丝，看了大半本《ruby元编程》，又看了松本行弘大神的《代码的未来》，学到了很多之前在Java重OO的影响下不会想象的编程原理。这两个月虽然加班多，但是收获多、快乐更多。</p>
 
 <p>之后就回到了学校开始了伺候老板的生活，顺着之前的惯性，上了一半的cousera上的Programming Language，很遗憾，最后在毕业的压力下无耻的半途而退了。。。不过还是学到了不少东西，写了两个月的SML，对程序语言的一些知识有了了解，又开了眼界。同时跟我们屋的大神讨论了windows上m:n的异步调用实现，本想利用业余时间写个雏形练练手，最后还是在毕业的压力下无耻的暂停了，寒假一定要补上！</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives/"> Archives </a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section id="titles">
-  <a href="http://blog.jack-wei-sun.org" title="孙伟(Jack)的博客"><img id="logo" src="/images/avatar.png" /></a>
-  <h1 id="site_title"><a href="http://blog.jack-wei-sun.org" title="孙伟(Jack)的博客">孙伟(Jack)的博客</a></h1>
-  <h3 id="site_subtitle">记时思，习文笔，积跬步，至千里</h3>
-</section>
-
-<section id="menu">
-  <ul>
-    <li><i class="fa fa-home fa-lg"></i><a href="http://blog.jack-wei-sun.org"> Home </a></li>
-    <li><i class="fa fa-calendar fa-lg"></i><a href="http://blog.jack-wei-sun.org/blog/archives/"> Archives </a></li>
-    <li><i class="fa fa-user fa-lg"></i><a href="http://blog.jack-wei-sun.org/about/"> About </a></li>
-    <li><i class="fa fa-rss fa-lg"></i><a href="http://blog.jack-wei-sun.org/atom.xml"> Feed </a></li>
-  </ul>
-</section>
-
-<section>
-  <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/sui-xiang'>随想 (4)</a></li></ul>
-</section>
-
-
-<section id="social">
-  
-
-  
-
-  
-
-  
-    <a href="https://github.com/jacksunwei" title="jacksunwei"><i class="fa fa-github fa-2x"></i></a>
-  
-
-  
-
-  
-</section>
-
-
-<section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2015/04/18/ji-neng-dian-yu-zhi-ye-xuan-ze/">技能点与职业选择</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/30/chuang-zao-li-bi-ji/">创造力笔记</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/26/xu-han-shu-yu-jie-kou/">虚函数与接口</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/01/03/2014-review/">2014 Review</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - 孙伟 Jack -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-<script type="text/javascript">
-      var disqus_shortname = 'jack-wei-sun-blog';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
+</feed>
